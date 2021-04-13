@@ -40,17 +40,19 @@ def rodiPolumentu(ime):
     if len(ime.split(' ')) > 1:
         raise ValueError('Дозвољен је унос само једног имена!')
     counter = 0
+    status = False
     while True:
         counter += 1
         if jedanPolumenta() == ime:
-            print(f'{ime} Полумента родио се у циклусу: {counter}')                        
+            print(f'{ime} Полумента родио се у циклусу: {counter}')      
+            status = True
             break
         if counter % 10000 == 0:
             print(f'Прошло је {counter} циклуса...')
         if counter > 1000000:
             print(f'После {counter} циклуса није се родио {ime} Полумента')
             break    
-    return (ime, counter)
+    return (ime, counter, status)
 
 if __name__ == '__main__':
 	print(Polumente(3))
