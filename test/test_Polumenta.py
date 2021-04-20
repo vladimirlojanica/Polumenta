@@ -1,5 +1,5 @@
 import pytest
-from polumenta.generator import jedanPolumenta, Polumente, rodiPolumentu
+from pylumenta.generator import jedanPolumenta, Polumente, rodiPolumentu
 
 def test_jedanPolumenta():	
 	pol = jedanPolumenta()
