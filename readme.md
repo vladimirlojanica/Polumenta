@@ -1,8 +1,12 @@
 # Polumenta generator
 
+[![Downloads](https://static.pepy.tech/personalized-badge/pylumenta?period=total&units=international_system&left_color=orange&right_color=blue&left_text=Downloads)](https://pepy.tech/project/pylumenta)
+[![Downloads](https://pepy.tech/badge/pylumenta/month)](https://pepy.tech/project/pylumenta)
+[![Downloads](https://pepy.tech/badge/pylumenta/week)](https://pepy.tech/project/pylumenta)
+
 ## Intro
 
-This generator is ispired by http://polumenta.zardina.org/ and based on https://github.com/vl4dimir/polumenta.
+This generator is inspired by http://polumenta.zardina.org/ and based on https://github.com/vl4dimir/polumenta.
 
 ## Getting started
 
